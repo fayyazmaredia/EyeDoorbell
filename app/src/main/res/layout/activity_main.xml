@@ -10,7 +10,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="61dp"
+        android:layout_height="56dp"
         android:layout_marginStart="89dp"
         android:layout_marginLeft="89dp"
         android:layout_marginTop="100dp"
@@ -21,13 +21,16 @@
         android:textColorLink="@color/colorAccent"
         android:textSize="30sp"
         android:visibility="visible"
+
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:layout_constraintVertical_chainStyle="spread" />
+        app:layout_constraintVertical_chainStyle="spread"
+        />
+
 
     <Button
         android:id="@+id/button2"
@@ -43,7 +46,7 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
