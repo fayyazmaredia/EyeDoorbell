@@ -16,7 +16,7 @@ public class pop_messages extends Activity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int)(width), (int)(height));
+        getWindow().setLayout((int)(width), (int)(.8*height));
 
     }
 
