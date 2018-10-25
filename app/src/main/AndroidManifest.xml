@@ -16,10 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".pop_livefeed"></activity>
-        <activity android:name=".pop_images"></activity>
-        <activity android:name=".pop_messages"></activity>
+        <activity android:name=".pop_messages"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity android:name=".pop_images"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity android:name=".pop_livefeed"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
     </application>
 
 </manifest>
