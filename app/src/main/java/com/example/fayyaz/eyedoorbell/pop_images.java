@@ -31,7 +31,7 @@ public class pop_images extends Activity {
         webImg.setWebChromeClient(new WebChromeClient());
         webImg.setWebViewClient(new WebViewClient());
         webImg.getSettings().setJavaScriptEnabled(true);
-        webImg.loadUrl("http://192.168.1.2/android/showImages.html");
+        webImg.loadUrl("http://192.168.1.2/android/showImages.html");  //hardcoded ip address ATTN:JOSEPH
 
 
 
